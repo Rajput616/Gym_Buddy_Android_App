@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GYM BUDDY</string>
+    <string name="welcome">WELCOME</string>
+    <string name="d1">DAY 1</string>
+    <string name="d2">DAY 2</string>
+    <string name="d3">DAY 3</string>
+    <string name="d4">DAY 4</string>
+    <string name="d5">DAY 5</string>
+    <string name="d6">DAY 6</string>
+    <string name="d7">DAY 7</string>
+</resources>

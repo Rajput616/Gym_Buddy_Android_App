@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".legs_6" ></activity>
+        <activity android:name=".legs_5" />
+        <activity android:name=".legs_4" />
+        <activity android:name=".legs_3" />
+        <activity android:name=".legs_2" />
+        <activity android:name=".legs_1" />
+        <activity android:name=".biceps_7"/>
+        <activity android:name=".biceps_6" />
+        <activity android:name=".biceps_5" />
+        <activity android:name=".biceps_4" />
+        <activity android:name=".biceps_3" />
+        <activity android:name=".biceps_2" />
+        <activity android:name=".biceps_1" />
+        <activity android:name=".back_7" />
+        <activity android:name=".back_6" />
+        <activity android:name=".back_5" />
+        <activity android:name=".back_4" />
+        <activity android:name=".back_3" />
+        <activity android:name=".back_2" />
+        <activity android:name=".back_1" />
+        <activity android:name=".triceps_6" />
+        <activity android:name=".triceps_5" />
+        <activity android:name=".triceps_4" />
+        <activity android:name=".triceps_3" />
+        <activity android:name=".triceps_2" />
+        <activity android:name=".triceps_1" />
+        <activity android:name=".shoulder_6" />
+        <activity android:name=".shoulder_5" />
+        <activity android:name=".shoulder_4" />
+        <activity android:name=".shoulder_3" />
+        <activity android:name=".shoulder_2" />
+        <activity android:name=".shoulder_1" />
+        <activity android:name=".chest_6" />
+        <activity android:name=".chest_5" />
+        <activity android:name=".chest_4" />
+        <activity android:name=".chest_3" />
+        <activity android:name=".chest_2" />
+        <activity android:name=".chest_1" />
+        <activity android:name=".abs" />
+        <activity android:name=".legs" />
+        <activity android:name=".back" />
+        <activity android:name=".biceps" />
+        <activity android:name=".triceps" />
+        <activity android:name=".shoulder" />
+        <activity android:name=".chest" />
+        <activity android:name=".sunday" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".wednesday" />
+        <activity android:name=".tuesday" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2"  />
+        <activity android:name=".MainActivity" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

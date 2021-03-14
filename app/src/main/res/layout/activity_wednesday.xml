@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wednesday"
+    android:background="@drawable/bg21">
+
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:text="Legs"
+        android:textSize="30sp"
+        android:id="@+id/w1"
+        android:padding="0dp"
+        android:layout_marginTop="180dp"
+        android:textStyle="bold|italic"
+        android:background="@drawable/btshape"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:text="Abs"
+        android:textSize="30sp"
+        android:id="@+id/w2"
+        android:layout_below="@+id/w1"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btshape"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"/>
+</RelativeLayout>
